@@ -18,8 +18,8 @@ We thus state the following milestones with expected deliverable dates and subta
 
 ### Phase 2 (June 2027)
 
-- Expand data collection and foundation model training and inference to multi-subject cases while maintaining previous restrictions on field of view and environment.
+- Expand data collection and foundation model training and inference to multi-camera cases.
 
 ### Phase 3 ( December 2027)
 
-- Expand data collection and foundation model training and inference to multi-camera cases.
+- Expand data collection and foundation model training and inference to multi-subject cases while maintaining previous restrictions on field of view and environment.
