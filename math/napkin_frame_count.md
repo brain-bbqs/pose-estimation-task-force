@@ -1,11 +1,11 @@
 # Napkin math for slides
 
 $$
-t \cdot n \cdot l = m
+\frac{n \cdot l}{t} = m
 $$
 
 $$
-t = \text{Average time in seconds to label a single frame}
+t = \text{Average time to label a single frame (suggested unit: seconds per frame)}
 $$
 $$
 n = \text{Number of labelers}
@@ -14,7 +14,7 @@ $$
 l = \text{Length of time each labeler must spend annotating frames}
 $$
 $$
-m = \text{Target number of frames to have labeled}
+m = \text{Total number of labeled}
 $$
 
 
@@ -23,7 +23,7 @@ $$
 Let
 
 $$
-t = 3 \ \frac{\text{frames}}{\text{s}}
+t = 5 \ \frac{\text{s}}{\text{frames}}
 $$
 $$
 n = 10
@@ -35,7 +35,7 @@ $$
 Then solving for $l$,
 
 $$
-l = \frac{m}{t \cdot n} = \frac{1,000,000 \ \text{frames}}{3 \ \frac{\text{frames}}{\text{s}} \cdot 10}
-= \frac{100,000 \ \text{s}}{3} \cdot \frac{1 \ \text{min}}{60 \ \text{s}} \cdot \frac{1 \ \text{h}}{60 \ \text{min}}
-\approx 27.7 \ \text{h}
+l = \frac{t \cdot m}{n} = \frac{1,000,000 \ \text{frames} \cdot 5 \ \frac{\text{s}}{\text{frames}}}{10}
+= \frac{5,000,000 \ \text{s}}{10} \cdot \frac{1 \ \text{min}}{60 \ \text{s}} \cdot \frac{1 \ \text{h}}{60 \ \text{min}}
+\approx 138.88 \ \text{h}
 $$
