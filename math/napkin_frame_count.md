@@ -26,7 +26,7 @@ $$
 t = 3 \ \frac{\text{frames}}{\text{s}}
 $$
 $$
-n = 3
+n = 10
 $$
 $$
 m = 1,000,000 \ \text{frames}
