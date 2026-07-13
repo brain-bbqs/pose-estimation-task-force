@@ -26,7 +26,7 @@ We thus state the following milestones with expected deliverable dates and subta
   - Set up video tagging layer for admins.
   - In order to ensure consistent labeling practices, establish certification protocols for users per node as defined for the standardized skeleton.
   - Enforce regular consistency checks over time for certified labelers to prevent stylistic drift.
-  - Set up backend compute for model training per video, dataset, and model type (DLC/SLEAP/LP/etc.).
+  - Set up EMBER-HEARTH backend compute for model training per video, dataset, and model type (DLC/SLEAP/LP/etc.).
   - Automatically generate version-controlled inferences for each video for each trained model.
   - Create a dashboard for benchmarking and comparing model performance based on inference output.
   - Recruit an army of data annotators to reach the milestone of Phase 1b.
@@ -35,6 +35,7 @@ We thus state the following milestones with expected deliverable dates and subta
 
 - MILESTONE: Reach 1,000,000 labeled frames available on EMBER.
 - Assess the capabilities of one-shot transformers with this scale of training data.
+- First official release of web-based platform.
 
 ### Phase 2 (June 2027)
 
