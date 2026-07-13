@@ -40,6 +40,7 @@ We thus state the following milestones with expected deliverable dates and subta
 ### Phase 2 (June 2027)
 
 - Expand data collection and foundation model training and inference to multi-subject, single-camera (top-down/bottom-up) cases while maintaining previous restrictions on field of view and environment.
+  - May benefit from including new data annotation and model training for segmentation masks (outlines of subject) to help track and resolve animal identity.
 - Analyze and prioritize frame labeling based on predicted information value (not necessarily uniform over time).
 - Add capabilities to the platform for specialized use cases; pupil dilation, lick detection, breathing (only for qualifying field of views/resolutions).
 
