@@ -39,14 +39,14 @@ We thus state the following milestones with expected deliverable dates and subta
 
 ### Phase 2 (June 2027)
 
-- Expand data collection and foundation model training and inference to synchronized multi-camera cases while maintaining previous restrictions on the environment.
-- Reach 2,000,000 labeled frames across all collections.
+- Expand data collection and foundation model training and inference to multi-subject, single-camera (top-down/bottom-up) cases while maintaining previous restrictions on field of view and environment.
 - Analyze and prioritize frame labeling based on predicted information value (not necessarily uniform over time).
+- Add capabilities to the platform for specialized use cases; pupil dilation, lick detection, breathing (only for qualifying field of views/resolutions).
 
 ### Phase 3 (December 2027)
 
-- Expand data collection and foundation model training and inference to multi-subject single-camera (top-down/bottom-up) cases while maintaining previous restrictions on field of view and environment.
-- Reach 3,000,000 labeled frames across all collections.
+- Expand data collection and foundation model training and inference to synchronized multi-camera cases while maintaining previous restrictions on the environment.
+- Reach 2,000,000 labeled frames across all collections.
 
 ### Phase 4 (June 2028)
 
