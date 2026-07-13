@@ -52,13 +52,13 @@ We thus state the following milestones with expected deliverable dates and subta
 ### Phase 4 (June 2028)
 
 - Expand data collection and foundation model training and inference to multi-subject, multi-camera cases while maintaining previous restrictions on the environment.
-- Reach 4,000,000 labeled frames across all collections.
+- Reach 4,000,000 labeled frames across all collections, if the scaling laws for training have not yet saturated.
 
 ### Phase 5 (December 2028)
 
 - Expand data collection and foundation model training and inference to non-caged (open) environments.
   - By its nature, this will include a variety of fields of view.
   - Start with single subject cases where possible and expand later to multi-subject.
-- Reach 5,000,000 labeled frames across all collections.
+- Reach 6,000,000 labeled frames across all collections, if the scaling laws for training have not yet saturated.
 
 The hope is that phases 1-4 will make the extension to phase 5 relatively smooth.
