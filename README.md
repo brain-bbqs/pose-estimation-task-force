@@ -10,19 +10,31 @@ The mission of this project is quite extensive in scope.
 As such, we are carefully planning each stage as limited, achievable steps, which will gradually accumulate the capabilities of the system.
 We thus state the following milestones with expected deliverable dates and subtasks.
 
-Dataset-specific RAG-style methods will be assessed and used throughout each phase.
-Individual models will be trained per video and per dataset of consistent videos.
-Mixtures of experts will be made across datasets.
-Long-running cumulative models will be trained continuously over the entire collection.
+### All Phases
 
-### Phase 1 (December 2026)
+- Dataset-specific RAG-style methods will be assessed and used throughout each phase.
+- Individual models will be trained per video and per dataset of consistent videos.
+- Mixtures of experts will be made across datasets.
+- Long-running cumulative models will be trained continuously over the entire collection.
+
+### Phase 1a (December 2026)
 
 - Collect a centralized collection of videos with top-down or bottom-up fixed camera field of views of caged rodents.
 - Transcode all videos in the collection to a common physical or coordinate space.
 - Work with the scientific community to define rigorous, well-documented, and anatomically justified standard skeleton definitions (at both coarse- and fine- levels of detail).
-- Label 1,000,000 frames from the standard transcoding of the data collection using the standardized collection.
-- Offer automatically generated ethogram methods from the inferred pose series for each model.
-  - Ideally, also compare to some manually annotated ethograms for ground truth benchmark comparison.
+- Release beta version of the web-based crowd-sourced labeler for training frames, which reads from the transcoded videos on EMBER and writes all annotations back to designated datasets on EMBER. This labeler is restricted only to the standardized skeletons approved by the consortium.
+  - Set up video tagging layer for admins.
+  - In order to ensure consistent labeling practices, establish certification protocols for users per node as defined for the standardized skeleton.
+  - Enforce regular consistency checks over time for certified labelers to prevent stylistic drift.
+  - Set up backend compute for model training per video, dataset, and model type (DLC/SLEAP/LP/etc.).
+  - Automatically generate version-controlled inferences for each video for each trained model.
+  - Create a dashboard for benchmarking and comparing model performance based on inference output.
+  - Recruit an army of data annotators to reach the milestone of Phase 1b.
+
+### Phase 1b (March 2027)
+
+- MILESTONE: Reach 1,000,000 labeled frames available on EMBER.
+- Assess the capabilities of one-shot transformers with this scale of training data.
 
 ### Phase 2 (June 2027)
 
