@@ -9,4 +9,5 @@
 | **Published** | September 2021 |
 | **GitHub** | [jbohnslav/deepethogram](https://github.com/jbohnslav/deepethogram) |
 | **Status** | Actively maintained |
+| **Uses pose estimation?** | No. Works directly on raw pixels. Paper points out how complicated skeletons can get. |
 | **Takeaway** | Skeleton-based action recognition requires a consistent skeleton. Because these features "must be carefully redesigned" for different species, skeletons, or numbers of animals, there is no species- and behavior-agnostic rule dictating which nodes are necessary |
