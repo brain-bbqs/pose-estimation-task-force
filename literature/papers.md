@@ -1,8 +1,9 @@
 # Literature Review
 
+### DeepEthogram
+
 | Field | Details |
 |-------|---------|
-| **Short Reference** | DeepEthogram |
 | **Full Title** | DeepEthogram, a machine learning pipeline for supervised behavior classification from raw pixels |
 | **Link** | https://elifesciences.org/articles/63377 |
 | **Published** | September 2021 |
